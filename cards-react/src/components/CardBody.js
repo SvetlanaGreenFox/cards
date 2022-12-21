@@ -1,5 +1,5 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default function CardBody(props) {
   const { title, text, btnName } = props;
